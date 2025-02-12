@@ -15,6 +15,5 @@ This repository contains my **detailed notes** from two incredible blockchain co
 
 This repo serves as a **structured knowledge base** for anyone looking to **start or reinforce** their blockchain learning. Contributions and discussions are welcome! 🚀  
 
-🔗 **Check it out:** [Your GitHub Link]  
 
 #Blockchain #Web3 #SmartContracts #Ethereum #Solidity #Learning  
