@@ -1,0 +1,107 @@
+{
+  "nodes": [
+    {
+      "id": "8e21d916c9676a94",
+      "type": "text",
+      "text": "Cryptographic Algorithm",
+      "styleAttributes": {},
+      "x": -420,
+      "y": -200,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "35f3865cf352235e",
+      "type": "text",
+      "text": "Decentralized System",
+      "styleAttributes": {},
+      "x": -60,
+      "y": -200,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "97c54a25c7c6e93e",
+      "type": "text",
+      "text": "Validation by Miner",
+      "styleAttributes": {},
+      "x": 340,
+      "y": -200,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "ecb9301f3b6b09b1",
+      "type": "text",
+      "text": "BlockChain Creation",
+      "styleAttributes": {},
+      "x": 340,
+      "y": 0,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "33bf21accfdd6019",
+      "type": "text",
+      "text": "POW/POS",
+      "styleAttributes": {},
+      "x": -60,
+      "y": 0,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "e50cba13f4274e48",
+      "type": "text",
+      "text": "[[Distributed ledger]]",
+      "styleAttributes": {},
+      "x": -420,
+      "y": 0,
+      "width": 260,
+      "height": 60
+    }
+  ],
+  "edges": [
+    {
+      "id": "0beda26d47048d14",
+      "styleAttributes": {},
+      "fromNode": "8e21d916c9676a94",
+      "fromSide": "right",
+      "toNode": "35f3865cf352235e",
+      "toSide": "left"
+    },
+    {
+      "id": "ce8ad1979d73df07",
+      "styleAttributes": {},
+      "fromNode": "35f3865cf352235e",
+      "fromSide": "right",
+      "toNode": "97c54a25c7c6e93e",
+      "toSide": "left"
+    },
+    {
+      "id": "070cf9346532bf14",
+      "styleAttributes": {},
+      "fromNode": "97c54a25c7c6e93e",
+      "fromSide": "bottom",
+      "toNode": "ecb9301f3b6b09b1",
+      "toSide": "top"
+    },
+    {
+      "id": "54b313c8174ecf19",
+      "styleAttributes": {},
+      "fromNode": "ecb9301f3b6b09b1",
+      "fromSide": "left",
+      "toNode": "33bf21accfdd6019",
+      "toSide": "right"
+    },
+    {
+      "id": "81622d138c57f542",
+      "styleAttributes": {},
+      "fromNode": "33bf21accfdd6019",
+      "fromSide": "left",
+      "toNode": "e50cba13f4274e48",
+      "toSide": "right"
+    }
+  ],
+  "metadata": {}
+}

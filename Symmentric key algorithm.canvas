@@ -1,0 +1,141 @@
+{
+  "nodes": [
+    {
+      "id": "926723c499ab6e9e",
+      "type": "text",
+      "text": "Encrypted : Asdfghjk@!",
+      "styleAttributes": {},
+      "x": 0,
+      "y": -120,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "3868eb516876a53c",
+      "type": "text",
+      "text": "Message : Hi dhanush",
+      "styleAttributes": {},
+      "x": -480,
+      "y": -120,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "89e672a7c03eee54",
+      "type": "text",
+      "text": "P1",
+      "styleAttributes": {},
+      "x": -140,
+      "y": -120,
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "c5f1e8bfc1390d7f",
+      "type": "text",
+      "text": "Decrypted : Hi Dhanush",
+      "styleAttributes": {},
+      "x": 500,
+      "y": -120,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "a86bb6f86792be2a",
+      "type": "text",
+      "text": "P2",
+      "styleAttributes": {},
+      "x": 360,
+      "y": -120,
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "202d17390cb7cc35",
+      "type": "text",
+      "text": "some process",
+      "styleAttributes": {},
+      "x": 0,
+      "y": -340,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "86b941da736e4313",
+      "type": "text",
+      "text": "Encrypted and Decrypted message using the same key.",
+      "styleAttributes": {},
+      "x": 0,
+      "y": 60,
+      "width": 260,
+      "height": 120
+    }
+  ],
+  "edges": [
+    {
+      "id": "e126c046b0de513b",
+      "styleAttributes": {},
+      "fromNode": "3868eb516876a53c",
+      "fromSide": "right",
+      "toNode": "89e672a7c03eee54",
+      "toSide": "left"
+    },
+    {
+      "id": "39def760e52b96d7",
+      "styleAttributes": {},
+      "fromNode": "926723c499ab6e9e",
+      "fromSide": "right",
+      "toNode": "a86bb6f86792be2a",
+      "toSide": "left"
+    },
+    {
+      "id": "96f3859983443a95",
+      "styleAttributes": {},
+      "fromNode": "89e672a7c03eee54",
+      "fromSide": "right",
+      "toNode": "926723c499ab6e9e",
+      "toSide": "left"
+    },
+    {
+      "id": "46914792bcd60e23",
+      "styleAttributes": {},
+      "fromNode": "a86bb6f86792be2a",
+      "fromSide": "right",
+      "toNode": "c5f1e8bfc1390d7f",
+      "toSide": "left"
+    },
+    {
+      "id": "0f36f64d04a0633a",
+      "styleAttributes": {},
+      "fromNode": "89e672a7c03eee54",
+      "fromSide": "bottom",
+      "toNode": "86b941da736e4313",
+      "toSide": "left"
+    },
+    {
+      "id": "1355cbcf77161939",
+      "styleAttributes": {},
+      "fromNode": "a86bb6f86792be2a",
+      "fromSide": "bottom",
+      "toNode": "86b941da736e4313",
+      "toSide": "right"
+    },
+    {
+      "id": "673380bc7c072374",
+      "styleAttributes": {},
+      "fromNode": "202d17390cb7cc35",
+      "fromSide": "left",
+      "toNode": "89e672a7c03eee54",
+      "toSide": "top"
+    },
+    {
+      "id": "ae90923b7efc52b3",
+      "styleAttributes": {},
+      "fromNode": "202d17390cb7cc35",
+      "fromSide": "right",
+      "toNode": "a86bb6f86792be2a",
+      "toSide": "top"
+    }
+  ],
+  "metadata": {}
+}

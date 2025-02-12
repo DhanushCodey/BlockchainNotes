@@ -1,0 +1,125 @@
+{
+  "nodes": [
+    {
+      "id": "5458741938617f20",
+      "type": "text",
+      "text": "Request",
+      "styleAttributes": {},
+      "x": -360,
+      "y": -120,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "94af9a9c29b9a3d2",
+      "type": "text",
+      "text": "Transaction is broadcasted  towards the network",
+      "styleAttributes": {},
+      "x": -20,
+      "y": -120,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "aeb30ff3455f893c",
+      "type": "text",
+      "text": "Transaction becomes the part of the network",
+      "styleAttributes": {},
+      "x": 300,
+      "y": 40,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "5de90ee5cc1526f1",
+      "type": "text",
+      "text": "New block is added to the network",
+      "styleAttributes": {},
+      "x": -20,
+      "y": 40,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "83bc97069ca11201",
+      "type": "text",
+      "text": "Transaction is completed",
+      "styleAttributes": {},
+      "x": -360,
+      "y": 40,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "d7b94a3c0fe6adc2",
+      "type": "text",
+      "text": "Transaction is validated by the miner who is under the network",
+      "styleAttributes": {},
+      "x": 300,
+      "y": -130,
+      "width": 260,
+      "height": 80
+    },
+    {
+      "id": "1ff43255c60fbc88",
+      "type": "text",
+      "text": "Transaction fee ",
+      "styleAttributes": {},
+      "x": 560,
+      "y": -280,
+      "width": 220,
+      "height": 60
+    }
+  ],
+  "edges": [
+    {
+      "id": "fbe53d3f47cef02f",
+      "styleAttributes": {},
+      "fromNode": "5458741938617f20",
+      "fromSide": "right",
+      "toNode": "94af9a9c29b9a3d2",
+      "toSide": "left"
+    },
+    {
+      "id": "c5a195c254ad12d6",
+      "styleAttributes": {},
+      "fromNode": "94af9a9c29b9a3d2",
+      "fromSide": "right",
+      "toNode": "d7b94a3c0fe6adc2",
+      "toSide": "left"
+    },
+    {
+      "id": "e59668456ea27a48",
+      "styleAttributes": {},
+      "fromNode": "d7b94a3c0fe6adc2",
+      "fromSide": "bottom",
+      "toNode": "aeb30ff3455f893c",
+      "toSide": "top"
+    },
+    {
+      "id": "bf4cb74c39cabfa7",
+      "styleAttributes": {},
+      "fromNode": "aeb30ff3455f893c",
+      "fromSide": "left",
+      "toNode": "5de90ee5cc1526f1",
+      "toSide": "right"
+    },
+    {
+      "id": "1de7eef29d585efa",
+      "styleAttributes": {},
+      "fromNode": "5de90ee5cc1526f1",
+      "fromSide": "left",
+      "toNode": "83bc97069ca11201",
+      "toSide": "right"
+    },
+    {
+      "id": "9765fef00a954fcb",
+      "styleAttributes": {},
+      "fromNode": "1ff43255c60fbc88",
+      "fromSide": "bottom",
+      "toNode": "d7b94a3c0fe6adc2",
+      "toSide": "top"
+    }
+  ],
+  "metadata": {}
+}

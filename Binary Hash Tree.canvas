@@ -1,0 +1,125 @@
+{
+  "nodes": [
+    {
+      "id": "2da8c0115523d2e7",
+      "type": "text",
+      "text": "\t\tHabcd\n\t\tHash(Hab,Hcd)",
+      "styleAttributes": {},
+      "x": -120,
+      "y": -240,
+      "width": 260,
+      "height": 100
+    },
+    {
+      "id": "b91686a26e6954d1",
+      "type": "text",
+      "text": "\t\tHash(A)",
+      "styleAttributes": {},
+      "x": -760,
+      "y": 320,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "3f7a6f22d6278d86",
+      "type": "text",
+      "text": "\t\tHash(b)",
+      "styleAttributes": {},
+      "x": -340,
+      "y": 320,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "fbed55339a3d1729",
+      "type": "text",
+      "text": "\t\t\tHab\n\tHash(Ha)    Hash(Hb)",
+      "styleAttributes": {},
+      "x": -540,
+      "y": 0,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "c865a84e83c5416c",
+      "type": "text",
+      "text": "\t\tHash(c)",
+      "styleAttributes": {},
+      "x": 40,
+      "y": 320,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "256bb07a7b5ad129",
+      "type": "text",
+      "text": "\t\t\tHcd\n\tHash(Hc)    Hash(Hd)",
+      "styleAttributes": {},
+      "x": 240,
+      "y": 0,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "3439d0a67cdff0f8",
+      "type": "text",
+      "text": "\t\tHash(d)",
+      "styleAttributes": {},
+      "x": 440,
+      "y": 320,
+      "width": 260,
+      "height": 60
+    }
+  ],
+  "edges": [
+    {
+      "id": "2165245748e5abbd",
+      "styleAttributes": {},
+      "fromNode": "2da8c0115523d2e7",
+      "fromSide": "bottom",
+      "toNode": "fbed55339a3d1729",
+      "toSide": "top"
+    },
+    {
+      "id": "a67a0f5bec4b80b5",
+      "styleAttributes": {},
+      "fromNode": "2da8c0115523d2e7",
+      "fromSide": "bottom",
+      "toNode": "256bb07a7b5ad129",
+      "toSide": "top"
+    },
+    {
+      "id": "a7be989575f001ab",
+      "styleAttributes": {},
+      "fromNode": "fbed55339a3d1729",
+      "fromSide": "bottom",
+      "toNode": "b91686a26e6954d1",
+      "toSide": "top"
+    },
+    {
+      "id": "8098963141e2e966",
+      "styleAttributes": {},
+      "fromNode": "fbed55339a3d1729",
+      "fromSide": "bottom",
+      "toNode": "3f7a6f22d6278d86",
+      "toSide": "top"
+    },
+    {
+      "id": "585cb0070550a15e",
+      "styleAttributes": {},
+      "fromNode": "256bb07a7b5ad129",
+      "fromSide": "bottom",
+      "toNode": "c865a84e83c5416c",
+      "toSide": "top"
+    },
+    {
+      "id": "ee86662def2b98ff",
+      "styleAttributes": {},
+      "fromNode": "256bb07a7b5ad129",
+      "fromSide": "bottom",
+      "toNode": "3439d0a67cdff0f8",
+      "toSide": "top"
+    }
+  ],
+  "metadata": {}
+}

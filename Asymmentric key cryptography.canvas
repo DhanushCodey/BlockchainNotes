@@ -1,0 +1,89 @@
+{
+  "nodes": [
+    {
+      "id": "050233c510dd972c",
+      "type": "text",
+      "text": "Message : \"Hi dhanush\"",
+      "styleAttributes": {},
+      "x": -380,
+      "y": -160,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "6561d1c845f0c99b",
+      "type": "text",
+      "text": "Message encrypted using encryptographic algorithm and public key",
+      "styleAttributes": {},
+      "x": -20,
+      "y": -160,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "0efc039e6ec108e0",
+      "type": "text",
+      "text": "Cipertext eg :  AxcvbjuytrdcvK",
+      "styleAttributes": {},
+      "x": 360,
+      "y": -160,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "efc9bd04e28a836d",
+      "type": "text",
+      "text": "Message decrypted using decryption algo and private key.",
+      "styleAttributes": {},
+      "x": 740,
+      "y": -160,
+      "width": 260,
+      "height": 120
+    },
+    {
+      "id": "03c701c6576d827b",
+      "type": "text",
+      "text": "DecryptMessage : Hi Dhanush",
+      "styleAttributes": {},
+      "x": 1120,
+      "y": -130,
+      "width": 260,
+      "height": 60
+    }
+  ],
+  "edges": [
+    {
+      "id": "cddbbea11061d101",
+      "styleAttributes": {},
+      "fromNode": "050233c510dd972c",
+      "fromSide": "right",
+      "toNode": "6561d1c845f0c99b",
+      "toSide": "left"
+    },
+    {
+      "id": "02a941c0a5c65863",
+      "styleAttributes": {},
+      "fromNode": "6561d1c845f0c99b",
+      "fromSide": "right",
+      "toNode": "0efc039e6ec108e0",
+      "toSide": "left"
+    },
+    {
+      "id": "80e5c033c5c9896c",
+      "styleAttributes": {},
+      "fromNode": "0efc039e6ec108e0",
+      "fromSide": "right",
+      "toNode": "efc9bd04e28a836d",
+      "toSide": "left"
+    },
+    {
+      "id": "1f99a041c093fc50",
+      "styleAttributes": {},
+      "fromNode": "efc9bd04e28a836d",
+      "fromSide": "right",
+      "toNode": "03c701c6576d827b",
+      "toSide": "left"
+    }
+  ],
+  "metadata": {}
+}

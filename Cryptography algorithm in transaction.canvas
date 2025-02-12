@@ -1,0 +1,135 @@
+{
+  "nodes": [
+    {
+      "id": "7f8dc73eb8451008",
+      "type": "text",
+      "text": "Readable format non-encrypted data.",
+      "styleAttributes": {},
+      "x": -360,
+      "y": -1380,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "199e1697f67a3b1a",
+      "type": "text",
+      "text": "Plain Text",
+      "styleAttributes": {},
+      "x": -360,
+      "y": -1560,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "33fa7821825d2a90",
+      "type": "text",
+      "text": "Encryption",
+      "styleAttributes": {},
+      "x": 40,
+      "y": -1560,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "d7579e0d909018d3",
+      "type": "text",
+      "text": "Ciphertext",
+      "styleAttributes": {},
+      "x": 420,
+      "y": -1560,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "4e5e9a392c7a4d9c",
+      "type": "text",
+      "text": "Decryption",
+      "styleAttributes": {},
+      "x": 780,
+      "y": -1560,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "47055f3a3244df31",
+      "type": "text",
+      "text": "Plaintext",
+      "styleAttributes": {},
+      "x": 1140,
+      "y": -1560,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "062cfd19238894aa",
+      "type": "text",
+      "text": "Non-readable format encrypted data. need to be decrypted if we want to read.",
+      "styleAttributes": {},
+      "x": 420,
+      "y": -1410,
+      "width": 260,
+      "height": 130
+    },
+    {
+      "id": "eaa8ee3850f405c2",
+      "type": "text",
+      "text": "Readable format non-encrypted data",
+      "styleAttributes": {},
+      "x": 1140,
+      "y": -1420,
+      "width": 260,
+      "height": 60
+    }
+  ],
+  "edges": [
+    {
+      "id": "674e2aa36d7ce1a5",
+      "styleAttributes": {},
+      "fromNode": "199e1697f67a3b1a",
+      "fromSide": "right",
+      "toNode": "33fa7821825d2a90",
+      "toSide": "left"
+    },
+    {
+      "id": "716caa316ed7e1ff",
+      "styleAttributes": {},
+      "fromNode": "33fa7821825d2a90",
+      "fromSide": "right",
+      "toNode": "d7579e0d909018d3",
+      "toSide": "left"
+    },
+    {
+      "id": "17bc95d653ee24af",
+      "styleAttributes": {},
+      "fromNode": "d7579e0d909018d3",
+      "fromSide": "right",
+      "toNode": "4e5e9a392c7a4d9c",
+      "toSide": "left"
+    },
+    {
+      "id": "5bd9d93bb1d5df4a",
+      "styleAttributes": {},
+      "fromNode": "4e5e9a392c7a4d9c",
+      "fromSide": "right",
+      "toNode": "47055f3a3244df31",
+      "toSide": "left"
+    },
+    {
+      "id": "d36f35f0cf5a5422",
+      "styleAttributes": {},
+      "fromNode": "7f8dc73eb8451008",
+      "fromSide": "top",
+      "toNode": "199e1697f67a3b1a",
+      "toSide": "bottom"
+    },
+    {
+      "id": "be1ab3f7c1110d42",
+      "styleAttributes": {},
+      "fromNode": "062cfd19238894aa",
+      "fromSide": "top",
+      "toNode": "d7579e0d909018d3",
+      "toSide": "bottom"
+    }
+  ],
+  "metadata": {}
+}

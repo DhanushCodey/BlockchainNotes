@@ -1,0 +1,272 @@
+{
+  "nodes": [
+    {
+      "id": "7f775be22dcdf403",
+      "type": "text",
+      "text": "Signer",
+      "styleAttributes": {},
+      "x": -380,
+      "y": -180,
+      "width": 260,
+      "height": 80
+    },
+    {
+      "id": "709b2b6eb66c7058",
+      "type": "text",
+      "text": "Hash algorithm",
+      "styleAttributes": {},
+      "x": -40,
+      "y": -180,
+      "width": 260,
+      "height": 80
+    },
+    {
+      "id": "3ef46a3626eba4b6",
+      "type": "text",
+      "text": "Hash",
+      "styleAttributes": {},
+      "x": 320,
+      "y": -180,
+      "width": 260,
+      "height": 80
+    },
+    {
+      "id": "c72726daad88af1b",
+      "type": "text",
+      "text": "Digitally Signed Document",
+      "styleAttributes": {},
+      "x": -380,
+      "y": 100,
+      "width": 260,
+      "height": 200
+    },
+    {
+      "id": "55f9a2455d1a60dd",
+      "type": "text",
+      "text": "Hash Algorithm",
+      "styleAttributes": {},
+      "x": -40,
+      "y": 100,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "1414ddffc753b2a0",
+      "type": "text",
+      "text": "Public key",
+      "styleAttributes": {},
+      "x": -40,
+      "y": 240,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "d2bba7b2f3391e2b",
+      "type": "text",
+      "text": "1101110001 - hash",
+      "styleAttributes": {},
+      "x": 320,
+      "y": 100,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "b7e8a74d3023fc05",
+      "type": "text",
+      "text": "1101110001 - hash",
+      "styleAttributes": {},
+      "x": 320,
+      "y": 240,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "b151bd02b4d79722",
+      "type": "text",
+      "text": "Signature is valid when the two hash values are equal.",
+      "styleAttributes": {},
+      "x": 760,
+      "y": 100,
+      "width": 260,
+      "height": 200
+    },
+    {
+      "id": "4b4b198fd8bc0119",
+      "type": "text",
+      "text": "Private key",
+      "styleAttributes": {},
+      "x": 660,
+      "y": -180,
+      "width": 260,
+      "height": 80
+    },
+    {
+      "id": "d7b245650563f184",
+      "type": "text",
+      "text": "\tEncrption",
+      "styleAttributes": {},
+      "x": 100,
+      "y": -420,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "defe420f54ff2a7e",
+      "type": "text",
+      "text": "\tDecryption",
+      "styleAttributes": {},
+      "x": 160,
+      "y": 460,
+      "width": 260,
+      "height": 60
+    }
+  ],
+  "edges": [
+    {
+      "id": "78946485a934fdbe",
+      "styleAttributes": {},
+      "fromNode": "7f775be22dcdf403",
+      "fromSide": "right",
+      "toNode": "709b2b6eb66c7058",
+      "toSide": "left"
+    },
+    {
+      "id": "7c8ec533a27c1d5a",
+      "styleAttributes": {},
+      "fromNode": "709b2b6eb66c7058",
+      "fromSide": "right",
+      "toNode": "3ef46a3626eba4b6",
+      "toSide": "left"
+    },
+    {
+      "id": "5fc7b9f74aee8d49",
+      "styleAttributes": {},
+      "fromNode": "4b4b198fd8bc0119",
+      "fromSide": "bottom",
+      "toNode": "c72726daad88af1b",
+      "toSide": "top",
+      "label": "Network"
+    },
+    {
+      "id": "7b29eb9666dd1162",
+      "styleAttributes": {},
+      "fromNode": "c72726daad88af1b",
+      "fromSide": "right",
+      "toNode": "55f9a2455d1a60dd",
+      "toSide": "left"
+    },
+    {
+      "id": "1672550c89ed2348",
+      "styleAttributes": {},
+      "fromNode": "c72726daad88af1b",
+      "fromSide": "right",
+      "toNode": "1414ddffc753b2a0",
+      "toSide": "left"
+    },
+    {
+      "id": "36c6680fa53c617d",
+      "styleAttributes": {},
+      "fromNode": "55f9a2455d1a60dd",
+      "fromSide": "right",
+      "toNode": "d2bba7b2f3391e2b",
+      "toSide": "left"
+    },
+    {
+      "id": "1cbf276118b8940c",
+      "styleAttributes": {},
+      "fromNode": "1414ddffc753b2a0",
+      "fromSide": "right",
+      "toNode": "b7e8a74d3023fc05",
+      "toSide": "left"
+    },
+    {
+      "id": "744063e3373694f0",
+      "styleAttributes": {},
+      "fromNode": "d2bba7b2f3391e2b",
+      "fromSide": "right",
+      "toNode": "b151bd02b4d79722",
+      "toSide": "left"
+    },
+    {
+      "id": "45e47c39293ca3c2",
+      "styleAttributes": {},
+      "fromNode": "b7e8a74d3023fc05",
+      "fromSide": "right",
+      "toNode": "b151bd02b4d79722",
+      "toSide": "left"
+    },
+    {
+      "id": "f21877dbe3598fca",
+      "styleAttributes": {},
+      "fromNode": "3ef46a3626eba4b6",
+      "fromSide": "right",
+      "toNode": "4b4b198fd8bc0119",
+      "toSide": "left"
+    },
+    {
+      "id": "85622e0be571726b",
+      "styleAttributes": {},
+      "fromNode": "d7b245650563f184",
+      "fromSide": "bottom",
+      "toNode": "7f775be22dcdf403",
+      "toSide": "top"
+    },
+    {
+      "id": "f7d2b483f34af9c3",
+      "styleAttributes": {},
+      "fromNode": "d7b245650563f184",
+      "fromSide": "bottom",
+      "toNode": "4b4b198fd8bc0119",
+      "toSide": "top"
+    },
+    {
+      "id": "23b7a69eba2be89e",
+      "styleAttributes": {},
+      "fromNode": "d7b245650563f184",
+      "fromSide": "bottom",
+      "toNode": "709b2b6eb66c7058",
+      "toSide": "top"
+    },
+    {
+      "id": "133ea8ba51ec28f6",
+      "styleAttributes": {},
+      "fromNode": "d7b245650563f184",
+      "fromSide": "bottom",
+      "toNode": "3ef46a3626eba4b6",
+      "toSide": "top"
+    },
+    {
+      "id": "d074b745bda6c799",
+      "styleAttributes": {},
+      "fromNode": "c72726daad88af1b",
+      "fromSide": "bottom",
+      "toNode": "defe420f54ff2a7e",
+      "toSide": "top"
+    },
+    {
+      "id": "a2754f5110ed5161",
+      "styleAttributes": {},
+      "fromNode": "1414ddffc753b2a0",
+      "fromSide": "bottom",
+      "toNode": "defe420f54ff2a7e",
+      "toSide": "top"
+    },
+    {
+      "id": "168df91c4251df19",
+      "styleAttributes": {},
+      "fromNode": "b7e8a74d3023fc05",
+      "fromSide": "bottom",
+      "toNode": "defe420f54ff2a7e",
+      "toSide": "top"
+    },
+    {
+      "id": "37e240b35a2a333c",
+      "styleAttributes": {},
+      "fromNode": "b151bd02b4d79722",
+      "fromSide": "bottom",
+      "toNode": "defe420f54ff2a7e",
+      "toSide": "top"
+    }
+  ],
+  "metadata": {}
+}
